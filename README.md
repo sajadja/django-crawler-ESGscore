@@ -8,6 +8,7 @@ DB = { 'NAME': 'database name', 'USER': 'database user name', 'PASSWORD': 'datab
 then you must run manualy the crawler.py to update database. it will get the first 101 companies data and scores(not all cause of low ping and resources) and save in database.
 
 API's:
+
   get() method to "site/api/register/" to get the token for register
   
   get() method to "site/api/companieslist/" to get list of companies that we have theyr scores
